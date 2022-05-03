@@ -10,8 +10,8 @@ if [ "$(id -u)" != "0" ]; then
 fi
 # ...
 
-figlet -c RDP Installer
 sudo su - 
+figlet -c RDP Installer
 sudo apt install xrdp
 sudo systemctl enable --now xrdp
 sudo ufw allow from any to any port 3389 proto tcp 

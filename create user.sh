@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo su - 
 figlet -c Create User
-adduser
+echo "Run adduser"
 exit 1

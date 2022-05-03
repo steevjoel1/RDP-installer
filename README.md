@@ -1,4 +1,4 @@
-# Ubuntu_20.04-RDP-Access-Set-UP
+# RDP Installer On Ubuntu 20.04
 ### Summary 
 This instruction shows you how to install and configure remote desktop protocol on Ubuntu 20.04 Desktop. 
 ### Outcome

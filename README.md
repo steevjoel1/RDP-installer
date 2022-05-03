@@ -13,13 +13,19 @@ The outcome of this guide is that you will be able to RDP to Ubuntu from a windo
 # Ubuntu 20.04 Remote Desktop Access from Windows 10 step by step instructions
 ## Step 1
 First step is to install Remote Desktop Protocol (RDP) server xrdp on the Ubuntu 20.04 desktop. To do so execute the following command:
-> sudo apt install xrdp
+```bash
+sudo apt install xrdp
+```
 ## Step 2
 Enable to start after reboot and run the remote desktop sharing server xrdp:
-> sudo systemctl enable --now xrdp
+```bash
+sudo systemctl enable --now xrdp
+```
 ## Step 3
 Still on the Ubuntu 20.04 desktop, open a firewall port 3389 for an incoming traffic:
-> sudo ufw allow from any to any port 3389 proto tcp
+```bash
+sudo ufw allow from any to any port 3389 proto tcp
+```
 ## Step 4
 Log out of the ubuntu computer you want to connect to 
 ## Step 5

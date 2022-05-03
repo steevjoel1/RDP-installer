@@ -43,5 +43,4 @@ case $input in
     1) bash <(curl -s https://raw.githubusercontent.com/KaranGamerz207/RDP-script/main/rdp.sh);;
     2) bash <(curl -s https://raw.githubusercontent.com/KaranGamerz207/RDP-script/main/create%20user.sh);;
 *) exit;;
-
-echo "This is Made For Crystal Hosting, Discord - discord.gg/vpsfree"
+esac

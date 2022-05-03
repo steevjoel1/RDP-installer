@@ -1,5 +1,3 @@
-#!/bin/bash
-sudo su - 
 figlet -c RDP Installer
 sudo apt install xrdp
 sudo systemctl enable --now xrdp

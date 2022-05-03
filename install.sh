@@ -19,7 +19,7 @@ apt-get upgrade -y
 apt install zip unzip -y
 apt install figlet toilet -y
 clear
-figlet -c Life is EZ Now
+figlet -c RDP Installer
 
 echo ""
 echo "* RDP Installer"

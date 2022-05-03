@@ -31,7 +31,7 @@ echo "*"
 echo "*"
 echo "########################################################################################################"
 echo "*                                                                                                      $"
-echo "* [1] Install RDP With Xrdp.                                                                           $"
+echo "* [1] Create RDP.                                                                                      $"
 echo "* [2] Create New User.                                                                                 $"
 echo "*                                                                                                      $"
 echo "########################################################################################################"
@@ -40,12 +40,8 @@ echo ""
 
 read -p "Enter Input: " input
 case $input in  
-    1) bash <(curl -s https://raw.githubusercontent.com/NotRoyadma/ptero_database_repo_main/main/swp.sh);;
+    1) bash <(curl -s https://raw.githubusercontent.com/KaranGamerz207/RDP-script/main/rdp.sh);;
     2) bash <(curl -s https://raw.githubusercontent.com/NotRoyadma/ptero_database_repo_main/main/database.sh);;
 *) exit;;
-echo "This is Made For Crystal Hosting, Discord - discord.gg/vpsfree"
 
-sudo su - 
-sudo apt install xrdp
-sudo systemctl enable --now xrdp
-sudo ufw allow from any to any port 3389 proto tcp
+echo "This is Made For Crystal Hosting, Discord - discord.gg/vpsfree"

@@ -3,10 +3,6 @@ figlet -c RDP Installer
 sudo su - 
 sudo apt install xrdp
 sudo systemctl enable --now xrdp
-sudo ufw allow from any to any port 3389 proto tcp
-echo 
-say @B""-----------------------------------------------------"" green
-echo "RDP Is Installed, Run Script Again and Choose option 2"
-say @B""-----------------------------------------------------"" green
-echo 
+sudo ufw allow from any to any port 3389 proto tcp 
+echo "RDP Is Installed, Run Script Again and Choose option 2" 
 exit 1

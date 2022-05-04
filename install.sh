@@ -31,14 +31,14 @@ echo "*"
 echo "*"
 echo -e "\e[40;38;5;82m---------------------------------------------------------------------------------------\e[0m"
 echo "*                                                                                                      |"
-echo "* [1] Create RDP.                                                                                      |"
-echo "* [2] Create New User.                                                                                 |"
+echo -e "\e[96m[1] Create RDP.\e[0m                                                                          |"
+echo -e "\e[96m[1] C[2] Create New User.\e[0m                                                                |"
 echo "*                                                                                                      |"
 echo -e "\e[40;38;5;82m---------------------------------------------------------------------------------------\e[0m"
 echo ""
 echo ""
 
-read -p "Enter Input: " input
+read -p "Select Option: " input
 case $input in  
     1) bash <(curl -s https://raw.githubusercontent.com/KaranGamerz207/RDP-script/main/rdp.sh);;
     2) bash <(curl -s https://raw.githubusercontent.com/KaranGamerz207/RDP-script/main/create%20user.sh);;

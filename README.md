@@ -1,4 +1,4 @@
-# RDP Installer On Ubuntu 20.04
+# RDP Installer
 
 Just Run this in Console and Done
 ```bash

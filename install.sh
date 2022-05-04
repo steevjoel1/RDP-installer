@@ -22,12 +22,10 @@ clear
 figlet -c RDP Installer
 
 echo ""
-echo "* RDP Installer"
-echo "*"
+echo "RDP Installer"
+echo ""
 echo -e "Copyright (C) 2022 - 2022, DNxRG Development, \e[96mdiscord.gg/dnxrgn\e[0m"
-echo "*"
-echo "*"
-echo "*"
+echo ""
 echo -e "\e[40;38;5;82m---------------------------------------------------------------------------------------\e[0m"
 echo -e "\e[40;38;5;82m                                                                                    |\e[0m"
 echo -e "\e[96m[1] Create RDP.                                                                             |\e[0m"

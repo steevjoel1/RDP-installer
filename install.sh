@@ -37,7 +37,7 @@ echo ""
 
 read -p "Select Option: " input
 case $input in  
-    1) bash <(curl -s https://raw.githubusercontent.com/KaranGamerz207/RDP-script/main/rdp.sh);;
-    2) bash <(curl -s https://raw.githubusercontent.com/KaranGamerz207/RDP-script/main/create%20user.sh);;
+    1) bash <(curl -s https://raw.githubusercontent.com/steevjoel1/RDP-script/main/rdp.sh);;
+    2) bash <(curl -s https://raw.githubusercontent.com/steevjoel1/RDP-script/main/create%20user.sh);;
 *) exit;;
 esac
